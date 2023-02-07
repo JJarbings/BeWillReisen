@@ -1,0 +1,115 @@
+a:hover {
+    color: #FFCBCB;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#FFDCAE, #FFF8E1);
+}
+
+h1,
+h2,
+h3 {
+    text-shadow: 2px 2px black;
+    color: #86E5FF;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Noto Sans Yi', sans-serif;
+    font-family: 'Solitreo', cursive;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+h4 {
+    padding-top: 10px;
+}
+h5 {
+    font-size: larger;
+    color: #86E5FF;
+}
+
+#hero {
+    background-image: url("../img/travelcropped.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 300px;
+}
+
+.flex-items {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 250px;
+    padding-top: 5px;
+}
+
+.tourguidecontainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    border-radius: 100%;
+    height: 200px;
+    max-width: 200px;
+    width: 200px;
+    -webkit-transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.countrys {
+    text-align: center;
+}
+
+.trips {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.tourguideimg {
+    width: 150px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.tourguidecontainer {
+    background-color: #FFF8E1;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tourguideinfo {
+    display: flex;
+    flex-direction: column;
+}
